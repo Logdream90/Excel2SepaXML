@@ -22,6 +22,12 @@ Zur Zeit sind folgende Dateien erstellbar:</p>
 <p>Die Beispieldatei im Verzeichnis "example" bietet eine funktionstüchtige Anwendung, welche es ermöglicht Sepa Überweisungen oder Sepa Lastschriften aus einer Liste zu erstellen. Für weitere Informationen besuchen Sie bitte folgende <a href="https://jansesoft.de/blog/index.php/excel2sepaxml/">Website</a>.</p>
 <h2>Sepa Überweisung (SCT) XML erstellen</h2>
 <p>Nachfolgend finden Sie Beispielcode aus der Beispielanwendung um eine Sepa XML SCT Datei zu erstellen</p>
+<p>HIerzu benötigte Verweise:</p>
+<ul>
+  <li>Microsoft XML, v6.0</li>
+  <li>Microsoft VBScript Regular Expressions 5.5</li>
+  <li>Microsoft Scripting Runtime (Nur zur Ausgabe des Fehlerprotokolls)</li>
+</ul>
 <p>&nbsp;</p>
 ```
 Private Sub create_sepa_xml_SCT()
