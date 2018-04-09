@@ -29,7 +29,8 @@ Zur Zeit sind folgende Dateien erstellbar:</p>
 <h2>Sepa Überweisung (SCT) XML erstellen</h2>
 <p>Nachfolgend finden Sie Beispielcode aus der Beispielanwendung um eine Sepa XML SCT Datei zu erstellen</p>
 <p>&nbsp;</p>
-```
+
+```Visual Basic
 Private Sub create_sepa_xml_SCT()
     Dim x As New clsSepaCCT
     Dim c As New clsSepaCreditInfo
@@ -115,11 +116,13 @@ Private Sub create_sepa_xml_SCT()
     Set x = Nothing
 End Sub
 ```
+
 <p>&nbsp;</p>
 <h3>Sepa Lastschrift (SDD) XML erstellen</h3>
 <p>Nachfolgend finden Sie Beispielcode aus der Beispielanwendung um eine Sepa XML SDD Datei zu erstellen</p>
 <p>&nbsp;</p>
-```
+
+```Visual Basic
 Private Sub create_sepa_xml_SDD()  
     Dim x As New clsSepaCDD
     Dim c As New clsSepaDebitInfo
@@ -208,4 +211,5 @@ Private Sub create_sepa_xml_SDD()
     Set x = Nothing
 End Sub
 ```
+
 <p>&nbsp;</p>
